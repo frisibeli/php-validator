@@ -1,0 +1,16 @@
+{
+    "name": "www/validator",
+    "description": "Example validator",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^2.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristiyan Boyanov",
+            "email": "kristiyan@uber.com"
+        }
+    ]
+}
