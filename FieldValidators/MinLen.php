@@ -13,6 +13,6 @@ class MinLen implements FieldValidator {
   }
 }
 
-$validator = new MinLen(10);
+// $validator = new MinLen(10);
 
 // echo $validator->isValid("dsfhds");

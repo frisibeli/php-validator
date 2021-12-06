@@ -1,5 +1,5 @@
 <?php
-require 'FieldValidator.php';
+require_once 'FieldValidator.php';
 
 class MaxLen implements FieldValidator {
   private $max = 0;
@@ -9,10 +9,11 @@ class MaxLen implements FieldValidator {
   }
 
   public function isValid($value) {
-    return strlen($value) <= $this->max;
+    return strlen($value) <= $this->ax;
   }
+
 }
 
 $validator = new MaxLen(10);
 
-echo $validator->isValid("dsfhds");
+// echo $validator->isValid("dsfhds");
